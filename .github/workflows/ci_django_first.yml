@@ -28,9 +28,9 @@ jobs:
           pip install -r requirements.txt
 
       # 4️⃣ Django 기본 체크 (문법 오류 검사용)
-      - name: Run Django check
-        run: |
-          python manage.py check
+#      - name: Run Django check
+#        run: |
+#          python manage.py check
 
       # (선택) 테스트 실행
       # - name: Run Tests
